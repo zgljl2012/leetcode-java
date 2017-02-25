@@ -21,6 +21,13 @@ public class Base {
 		println("");
 	}
 	
+	public static void println(int[] arr) {
+		for(Integer i:arr) {
+			print(i+" ");
+		}
+		println("");
+	}
+	
 	public static List<Integer> toArrays(int[] arr) {
 		List<Integer> list = new ArrayList<>(arr.length);
 		for(int i=0;i<arr.length;i++) {
@@ -30,7 +37,7 @@ public class Base {
 	}
 	
 	/**
-	 * 将数组转化为链表
+	 * 灏嗘暟缁勮浆鍖栦负閾捐〃
 	 * @param arr
 	 * @return
 	 */
@@ -46,7 +53,7 @@ public class Base {
 	}
 	
 	/**
-	 * 树节点
+	 * 鏍戣妭鐐�
 	 * @author zgljl2012
 	 *
 	 */
@@ -58,7 +65,7 @@ public class Base {
 	}
 	
 	/**
-	 * 链表节点
+	 * 閾捐〃鑺傜偣
 	 * @author zgljl2012
 	 */
 	public static class ListNode {
