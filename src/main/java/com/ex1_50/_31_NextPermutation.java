@@ -4,9 +4,6 @@ import com.base.Base;
 
 /**
  * url：https://leetcode.com/problems/next-permutation/?tab=Description
- * 
- * @author {author name}
- *
  */
 public class _31_NextPermutation extends Base {
 	

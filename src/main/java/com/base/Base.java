@@ -28,6 +28,15 @@ public class Base {
 		println("");
 	}
 	
+	public static void println(int[][] arrs) {
+		for(int[] arr:arrs) {
+			for(int a:arr) {
+				print(a+" ");
+			}
+			println("");
+		}
+	}
+	
 	public static List<Integer> toArrays(int[] arr) {
 		List<Integer> list = new ArrayList<>(arr.length);
 		for(int i=0;i<arr.length;i++) {
