@@ -37,6 +37,15 @@ public class Base {
 		}
 	}
 	
+	public static void println(char[][] arrs) {
+		for(char[] arr:arrs) {
+			for(char a:arr) {
+				print(a+" ");
+			}
+			println("");
+		}
+	}
+	
 	public static List<Integer> toArrays(int[] arr) {
 		List<Integer> list = new ArrayList<>(arr.length);
 		for(int i=0;i<arr.length;i++) {
