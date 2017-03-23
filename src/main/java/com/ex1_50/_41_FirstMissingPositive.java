@@ -30,7 +30,6 @@ public class _41_FirstMissingPositive extends Base {
 	        		swap(nums, i, nums[i] - 1);
 	        	}
 	        }
-	        println(nums);
 	        for(int i = 0; i < nums.length; i++) {
 	        	if(nums[i] != i + 1) {
 	        		return i + 1;
