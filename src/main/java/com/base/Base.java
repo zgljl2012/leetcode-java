@@ -28,6 +28,13 @@ public class Base {
 		println("");
 	}
 	
+	public static void println(Object[] arr) {
+		for(Object i:arr) {
+			print(i+" ");
+		}
+		println("");
+	}
+	
 	public static void println(int[][] arrs) {
 		for(int[] arr:arrs) {
 			for(int a:arr) {
