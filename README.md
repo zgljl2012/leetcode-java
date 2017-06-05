@@ -17,4 +17,11 @@
 ### 51-100题
 
 + [51. N-Queens](http://www.zgljl2012.com/leetcode-51-n-queens/)
++ []()
++ [69. Sqrt(x)](http://www.zgljl2012.com/leetcode-69-sqrt-x)
++ [71. Simplify Path](http://www.zgljl2012.com/leetcode-71-simplify-path)
++ [72. Edit Distance](http://www.zgljl2012.com/leetcode-72-edit-distance)
++ [73. Set Matrix Zeroes](http://www.zgljl2012.com/leetcode-add-to-list-73-set-matrix-zeroes)
++ [74. Search a 2D Matrix](http://www.zgljl2012.com/leetcode-74-search-a-2d-matrix)
++ [75. Sort Colors](http://www.zgljl2012.com/leetcode-75-sort-colors/)
 
