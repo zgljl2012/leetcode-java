@@ -26,8 +26,6 @@ public class _84_LargestRectangleInHistogram extends Base {
 	        			maxArea = Math.max(maxArea, heights[top] * (stack.isEmpty()?i:i-1-stack.peek()));
 	        			i--;
 	        		}
-	        		println(stack);
-	        		println("-->" + maxArea);
 	        }
 	        return maxArea;
 	    }
